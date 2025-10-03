@@ -1,6 +1,8 @@
 🏠 MakanScore – House Price Prediction
 MakanScore is a machine learning + deep learning based web app that predicts house prices in India using a dataset of property features.  
 It has a FastAPI backend (for prediction) and a React frontend (for UI).  
+
+
  🚀 Features
 > Predicts house prices based on features like bedrooms, bathrooms, area, year, etc.
 > FastAPI backend for handling ML model inference.
@@ -16,7 +18,7 @@ Backend:FastAPI
 ML/DL:TensorFlow, Scikit-learn
 
  
- >>Run Locally
+ >Run Locally
 
 Clone the repository:
 
@@ -24,16 +26,14 @@ git clone https://github.com/riyaa2210/MakanScore.git
 cd MakanScore
 
 
->> Backend
-
-
+1. Backend
+   
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload --host 0.0.0.0 --port 5000
 
- >>Frontend
-
-
+ 2.Frontend
+ 
 cd frontend
 npm install
 npm start
