@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+env/
+*.sqlite3
+
+# Keras / TensorFlow / Models
+*.h5
+*.keras
+*.joblib
+
+# VSCode / IDE
+.vscode/
+*.log
+.DS_Store
+
+# Node / React
+node_modules/
+build/
